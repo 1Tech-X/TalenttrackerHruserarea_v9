@@ -1,0 +1,19 @@
+
+
+
+.people {
+  margin-top: 7rem;
+}
+.search-contact {
+  max-width: 992px;
+}
+.form-div {
+    overflow-y: scroll;
+    height: calc(100vh - 240px);
+}
+@media(max-width: 720px){
+  .search-contact {
+    transform: scale(0.8);
+    margin-left: 2rem !important;
+  }
+}
