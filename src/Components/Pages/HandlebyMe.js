@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom'
 const HandlebyMe = () => {
     const handlebyMeList =[
         {JDNumber:"1",DatetimeofJDlocking:"24-05-2022",ClientID:"001",ClientName:"pkrs",JDtitle:"N/A",JDlocation:"India",signuprate:"N/A",paymentterms:"N/a",Noofsubmissions:"6",DateTimefsubmission:"23-05-2022",Status:"joined",Exchangenoteswithadmin:"N/A"}
-    ]
+    console.log(handlebyMe)
   return (
     <div>
         <NavbarMenu />
